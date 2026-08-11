@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "./journey.css";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}

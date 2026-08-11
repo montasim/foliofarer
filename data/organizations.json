@@ -1,0 +1,35 @@
+[
+  {
+    "id": "organization-bncc",
+    "name": "Bangladesh National Cadet Corps (BNCC)",
+    "url": "",
+    "associatedWith": "Rangpur Zilla School",
+    "period": "2011 – 2014",
+    "role": "Ex. Cadet",
+    "description": "Recognized as Second Best Cadet in 2 Mohastan Batalian. Participated in Central Training Exercise 2012, Annual Training Exercise, and Primary Training Exercise. Shortlisted for Sri Lanka Tour, reflecting competence and potential. Developed leadership, teamwork, and discipline through military-style training.",
+    "logo": "B",
+    "logoUrl": "/images/organizations/bncc.jpg"
+  },
+  {
+    "id": "organization-baust-career-club",
+    "name": "BAUST Career Club",
+    "url": "",
+    "associatedWith": "Bangladesh Army University of Science and Technology (BAUST)",
+    "period": "",
+    "role": "Member",
+    "description": "Participated in career development programs, workshops, and professional networking events. Collaborated with peers in organizing career-oriented activities and student engagement initiatives. Developed communication, leadership, and teamwork skills through active organizational involvement.",
+    "logo": "B",
+    "logoUrl": "/images/organizations/baust.png"
+  },
+  {
+    "id": "organization-baust-programming-club",
+    "name": "BAUST Programming Club",
+    "url": "",
+    "associatedWith": "Bangladesh Army University of Science and Technology (BAUST)",
+    "period": "",
+    "role": "Member",
+    "description": "Participated in programming contests, coding practice sessions, and technical workshops. Strengthened problem-solving and analytical thinking skills through competitive programming activities. Explored software development concepts, algorithms, and data structures through collaborative learning.",
+    "logo": "B",
+    "logoUrl": "/images/organizations/baust.png"
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "id": "project-b4joinacompany",
+    "type": "website",
+    "title": "b4joinacompany — Company Research for Job Seekers",
+    "description": "An evidence-labeled decision-support platform for job seekers in Bangladesh to research a company before applying, interviewing, or accepting an offer. Combines **source-linked workplace stories**, reported work arrangements, community salary ranges, official company links, side-by-side comparisons, rules-based verification questions, cited AI answers, private research checkpoints, and a companion browser extension — without reducing unlike evidence to a score.",
+    "technologies": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Better Auth",
+      "Gemini API",
+      "Groq API",
+      "Vitest"
+    ],
+    "liveUrl": "https://b4joinacompany.netlify.app",
+    "githubUrl": "https://github.com/montasim/b4joinacompany",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-postcraft",
+    "type": "website",
+    "title": "PostCraft — AI-Powered Social Media Manager",
+    "description": "An AI-powered social media management platform that generates, scores, and publishes highly engaging posts for LinkedIn, Twitter, and Facebook. Features include **Gemini-powered variant generation**, automated engagement scoring, a dynamic brand guardrail system, trend analysis, and background job scheduling via **Inngest**.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Redux.js",
+      "Gemini API",
+      "Inngest",
+      "Mongoose",
+      "Better Auth"
+    ],
+    "liveUrl": "https://aipostcraft.vercel.app",
+    "githubUrl": "https://github.com/montasim/PostCraft",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-devtools",
+    "type": "website",
+    "title": "DevTools — Developer Tools Suite",
+    "description": "An open-source, privacy-first suite of **40+ browser-based developer tools** — formatters (JSON, Base64, URL), generators (UUID, QR codes, passwords, RSA keys), network utilities (API request builder, WebSocket tester), and reference tools (regex tester, HTTP status codes) — most running fully client-side. Backed by a full **Next.js 16 (App Router)** backend across **20 API routes**: JWT/OTP email auth, account-synced saved state, a URL shortener with click tracking, and password-protected, expiring share links.",
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "CodeMirror",
+      "TanStack Query",
+      "PostgreSQL",
+      "Prisma"
+    ],
+    "liveUrl": "https://devtoolsn.vercel.app",
+    "githubUrl": "https://github.com/montasim/devtools",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-thoughtline",
+    "type": "extension",
+    "title": "Thoughtline — Chrome Extension",
+    "description": "A user-controlled Chrome side-panel extension for understanding selected LinkedIn conversations and shaping writing in your own voice. Creates **bilingual summaries and four editable reply directions**, refines sourced or pasted posts with profile and style grounding, researches ideas across five public developer sources, and keeps inspectable local history. Uses **Gemini with Groq fallback**, encrypted bring-your-own keys, bounded passive extraction, manual publishing, and no analytics.",
+    "technologies": [
+      "WXT",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Chrome Manifest V3",
+      "Gemini API",
+      "Groq API",
+      "Radix UI",
+      "Zod",
+      "Playwright"
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/montasim/Thoughtline",
+    "releaseUrl": "https://github.com/montasim/Thoughtline/releases/latest",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-address-bd",
+    "type": "package",
+    "title": "address-bd — npm package",
+    "description": "A zero-dependency, TypeScript-first library providing instant access to Bangladesh address data with **8 divisions**, **64 districts**, and **495 upazilas**. Includes bilingual support (English + Bengali), fuzzy search, autocomplete, geo-coordinates, cascading dropdown helpers, and validation utilities.",
+    "technologies": ["TypeScript", "tsup", "Jest", "GitHub Actions"],
+    "liveUrl": "https://address-bd.netlify.app",
+    "githubUrl": "https://github.com/montasim/address-bd",
+    "npmUrl": "https://www.npmjs.com/package/address-bd",
+    "emoji": ""
+  },
+  {
+    "id": "project-patient-portal",
+    "type": "website",
+    "title": "Patient Portal — MyMedicalHub",
+    "description": "A HIPAA-compliant healthcare SaaS platform enabling patients to complete **biometric assessments**, interact with **AI-powered chatbot intake**, view clinical reports, and connect with providers via **telemedicine** — across multiple tenant configurations.",
+    "technologies": [
+      "React.js",
+      "Redux.js",
+      "MediaPipe",
+      "WebRTC",
+      "Google Tag Manager",
+      "Opentok",
+      "REST APIs",
+      "Microsoft Azure"
+    ],
+    "liveUrl": "https://mymedicalhub.com",
+    "githubUrl": "",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-telemedicine-microservice",
+    "type": "website",
+    "title": "Telemedicine Microservice — MyMedicalHub",
+    "description": "A HIPAA-conscious telemedicine web application purpose-built for remote physical therapy and musculoskeletal rehabilitation. Bridges patients and licensed healthcare providers through **real-time video consultations**, **clinical-grade movement assessment**, and **AI-assisted repetition counting** as a multi-tenant SaaS solution.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "WebRTC",
+      "Socket.io",
+      "AWS S3",
+      "Tailwind CSS",
+      "PM2",
+      "Redux.js",
+      "Opentok",
+      "PrimeReact"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-re-annotation-microservice",
+    "type": "website",
+    "title": "Re-Annotation Microservice — MyMedicalHub",
+    "description": "A client-side web application for post-processing and correcting biometric **ROM (Range of Motion)** measurement data. Providers review captured patient exercise frames on an **interactive Canvas**, manually adjust annotation overlays (lines, angles), and persist corrected measurements via RESTful API — serving as a standalone re-annotation microservice.",
+    "technologies": [
+      "Konva.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "jQuery",
+      "JavaScript",
+      "HTML5",
+      "HTML5 Canvas",
+      "REST APIs",
+      "JWT"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-book-heaven",
+    "type": "website",
+    "title": "Book Heaven — AI-Powered Digital Library",
+    "description": "A full-featured digital library platform with **AI-powered book chat (RAG)**, mood-based recommendations, auto-generated quizzes with gamification, a buy/sell marketplace with **real-time messaging**, Stripe subscriptions, and a comprehensive admin dashboard.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+      "Socket.io",
+      "Redis",
+      "Stripe"
+    ],
+    "liveUrl": "https://bookheavenbeta.vercel.app/books",
+    "githubUrl": "https://github.com/montasim/book-heaven",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-shrnkly",
+    "type": "website",
+    "title": "Shrnkly — URL Shortener",
+    "description": "A modern URL management platform combining link shortening, text sharing, and QR code generation. Features **real-time click analytics** with geographic tracking, password-protected links, Google OAuth, **9-language i18n**, Redis caching, and a full dashboard with interactive charts.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Prisma",
+      "Redis",
+      "Framer Motion"
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/montasim/shrnkly-url-shortener",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-ramadan-clock",
+    "type": "website",
+    "title": "Ramadan Clock — Sehri & Iftar Time Viewer",
+    "description": "A Ramadan schedule viewer supporting all **64 districts** of Bangladesh with Aladhan API integration, PDF export, countdown timers, and a **DDD-based architecture**. Features admin dashboard with file upload, multi-layered caching, rate limiting, and comprehensive SEO with JSON-LD schemas.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "NextAuth.js",
+      "Zod"
+    ],
+    "liveUrl": "https://fasttimes.netlify.app",
+    "githubUrl": "https://github.com/montasim/ramadan-clock",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-baust-cse-student-archive",
+    "type": "website",
+    "title": "BAUST CSE Student Archive",
+    "description": "A secure, premium student directory and search API for the Computer Science and Engineering department of BAUST. Features **intelligent fuzzy search** with relevance scoring, **IP-based rate limiting** (60 req/min), **Base64-obfuscated database**, auto-search with debounce, advanced filters, and a modern dark mode UI built with **Tailwind CSS v4**.",
+    "technologies": [
+      "TanStack Start",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Lucide React",
+      "Radix UI",
+      "Netlify Functions"
+    ],
+    "liveUrl": "https://baust-archive.netlify.app",
+    "githubUrl": "https://github.com/montasim/baust-archive",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-tin-audit-checker",
+    "type": "website",
+    "title": "TIN Audit Checker — Bangladesh",
+    "description": "A client-side privacy-first tool to check if a Bangladesh TIN is selected for NBR Risk-Based Audit (AY 2023-24). Instant lookup across **72,342 returns** with **no data sent to any server** — all processing happens in the browser.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    "liveUrl": "https://tin-audit-checker.netlify.app",
+    "githubUrl": "https://github.com/montasim/tin-audit-checker",
+    "npmUrl": "",
+    "emoji": ""
+  },
+  {
+    "id": "project-http-status-lite",
+    "type": "package",
+    "title": "http-status-lite — npm package",
+    "description": "An ultra-lightweight (**~5 KB**), type-safe utility covering all **64 IANA-registered HTTP status codes**. Provides constants, messages, reverse lookup, category checks (2xx–5xx), and full TypeScript union types — tree-shakeable with dual ESM/CJS support and zero runtime dependencies.",
+    "technologies": ["TypeScript", "Node.js", "ESLint", "Prettier"],
+    "liveUrl": "https://http-status-lite-demo.netlify.app",
+    "githubUrl": "https://github.com/montasim/http-status-lite",
+    "npmUrl": "https://www.npmjs.com/package/http-status-lite",
+    "emoji": ""
+  },
+  {
+    "id": "project-content-types-lite",
+    "type": "package",
+    "title": "content-types-lite — npm package",
+    "description": "A lightweight, immutable, zero-dependency collection of **50+ common MIME types** for TypeScript and JavaScript. Tree-shakeable with dual ESM/CJS support, full TypeScript union types, frozen constants, and categorized exports for text, structured data, binary, media, and streaming content types.",
+    "technologies": ["TypeScript", "Node.js", "ESLint", "Prettier"],
+    "liveUrl": "https://content-types-lite-demo.netlify.app",
+    "githubUrl": "https://github.com/montasim/content-types-lite",
+    "npmUrl": "https://www.npmjs.com/package/content-types-lite",
+    "emoji": ""
+  },
+  {
+    "id": "project-mime-types-lite",
+    "type": "package",
+    "title": "mime-types-lite — npm package",
+    "description": "A lightweight, immutable collection of **80+ standardized MIME types** covering documents, images, video, audio, archives, web formats, and fonts. TypeScript-first with union types, frozen constants, and dual ESM/CJS support.",
+    "technologies": ["TypeScript", "Node.js"],
+    "liveUrl": "https://mime-types-lite-demo.netlify.app",
+    "githubUrl": "https://github.com/montasim/mime-types-lite",
+    "npmUrl": "https://www.npmjs.com/package/mime-types-lite",
+    "emoji": ""
+  },
+  {
+    "id": "project-client-parser",
+    "type": "package",
+    "title": "client-parser — npm package",
+    "description": "A lightweight User Agent parser that detects device type, OS name and version, browser name and version, rendering engine, and mobile/tablet flags. Fully typed with TypeScript, dual ESM/CJS support, and zero dependencies.",
+    "technologies": ["TypeScript", "Node.js"],
+    "liveUrl": "https://client-parser-demo.netlify.app",
+    "githubUrl": "https://github.com/montasim/client-parser",
+    "npmUrl": "https://www.npmjs.com/package/client-parser",
+    "emoji": ""
+  },
+  {
+    "id": "project-deshi-mula-extended",
+    "type": "extension",
+    "title": "Deshi Mula Extended — Chrome Extension",
+    "description": "A lightweight Chrome extension for deshimula.com that decodes leet-speak company names, reveals contact and social badges on hover, and provides **AI-powered comment summaries** with sentiment analysis, multilingual translation, salary ranges, and live job postings via **Gemini Flash API**.",
+    "technologies": [
+      "JavaScript",
+      "Chrome Extensions API",
+      "Gemini Flash API",
+      "Lucide Icons"
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/montasim/deshi-mula-extended",
+    "npmUrl": "",
+    "emoji": ""
+  }
+]

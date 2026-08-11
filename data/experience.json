@@ -1,0 +1,114 @@
+[
+  {
+    "id": "experience-mymedicalhub-senior-software-engineer",
+    "company": "MyMedicalHub International Ltd.",
+    "companyUrl": "https://mymedicalhub.com",
+    "logo": "M",
+    "logoUrl": "/images/organizations/mymedicalhub.png",
+    "location": "Mohakhali, Dhaka, Bangladesh",
+    "period": "Oct 2025 - Present",
+    "role": "Senior Software Engineer",
+    "description": "Architected an FSM-based biometric engine replacing unstable React hooks with deterministic state transitions for **99.9% reliability** during AI analysis. Optimized AI pipelines to support **60 FPS** pose estimation and real-time rep counting via adaptive frame rate logic. Led a full rewrite of the medical assessment chatbot with Redux Toolkit and refactored **54+ modules** into Presentational/Container pattern.",
+    "technologies": [
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "MediaPipe",
+      "Microsoft Azure"
+    ]
+  },
+  {
+    "id": "experience-mymedicalhub-software-engineer",
+    "company": "MyMedicalHub International Ltd.",
+    "companyUrl": "https://mymedicalhub.com",
+    "logo": "M",
+    "logoUrl": "/images/organizations/mymedicalhub.png",
+    "location": "Mohakhali, Dhaka, Bangladesh",
+    "period": "Oct 2023 - Sep 2025",
+    "role": "Software Engineer",
+    "description": "Boosted application performance by **40%** by stripping legacy UI libraries and optimizing React rendering cycles. Achieved **70% infrastructure cost reduction** by migrating Azure VMs to App Service and automating CI/CD pipelines. Deployed a HIPAA-compliant SSO system with multi-role access, OAuth integration, and strict CSP headers.",
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "Microsoft Azure",
+      "Docker",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": "experience-mymedicalhub-junior-software-engineer",
+    "company": "MyMedicalHub International Ltd.",
+    "companyUrl": "https://mymedicalhub.com",
+    "logo": "M",
+    "logoUrl": "/images/organizations/mymedicalhub.png",
+    "location": "Uttara, Dhaka, Bangladesh",
+    "period": "Sep 2022 - Sep 2023",
+    "role": "Junior Software Engineer",
+    "description": "Reduced patient diagnosis time by **25%** and achieved **95% accuracy** by integrating real-time AI analysis and custom algorithms. Integrated a WebRTC video pipeline stabilizing remote consultations and reducing call latency. Developed a JWT-based REST API client layer with built-in XSS and CSRF protection.",
+    "technologies": [
+      "React.js",
+      "WebRTC",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": "experience-multiversal-junior-frontend-developer",
+    "company": "Multiversal Software Ltd.",
+    "companyUrl": "",
+    "logo": "M",
+    "logoUrl": "/images/organizations/multiversal.jpg",
+    "location": "Uttara, Dhaka, Bangladesh",
+    "period": "Aug 2022 - Oct 2022",
+    "role": "Junior Frontend Developer",
+    "description": "Built and maintained **UI components** for a telemedicine platform using React.js, JavaScript, HTML5, and CSS3, improving user experience across devices. Debugged and optimized front-end code, **reducing page load time** and enhancing performance stability.",
+    "technologies": ["React.js", "JavaScript", "HTML5", "CSS3"]
+  },
+  {
+    "id": "experience-drra-mis-officer",
+    "company": "Disabled Rehabilitation and Research Association (DRRA)",
+    "companyUrl": "",
+    "logo": "D",
+    "logoUrl": "/images/organizations/drra.jpg",
+    "location": "Ershadnagar, Tongi, Gazipur, Dhaka, Bangladesh",
+    "period": "Dec 2021 - Aug 2022",
+    "role": "Management Information System Officer",
+    "description": "Maintained IT operations and systems reliability through software updates and hardware maintenance, **minimizing disruptions** to teaching and learning. Tracked program and **student-progress data** to support assessments, feedback, and organizational reporting. Supported curriculum delivery and ensured a stable, productive learning environment.",
+    "technologies": [
+      "IT Operations",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Microsoft PowerPoint"
+    ]
+  },
+  {
+    "id": "experience-drra-computer-instructor",
+    "company": "Disabled Rehabilitation and Research Association (DRRA)",
+    "companyUrl": "",
+    "logo": "D",
+    "logoUrl": "/images/organizations/drra.jpg",
+    "location": "Ershadnagar, Tongi, Gazipur, Dhaka, Bangladesh",
+    "period": "Feb 2022 - Aug 2022",
+    "role": "Computer Instructor",
+    "description": "Designed and delivered a **student-centered computer-skills curriculum** — IT fundamentals, Microsoft Word, Excel, and PowerPoint — aligned with industry standards. Improved student proficiency and confidence through hands-on instruction, **fair assessment**, and progress tracking.",
+    "technologies": [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "IT Operations"
+    ]
+  },
+  {
+    "id": "experience-codez-web-developer",
+    "company": "Codez Info Tech.",
+    "companyUrl": "",
+    "logo": "C",
+    "logoUrl": "/images/organizations/codez.png",
+    "location": "North Badda, Dhaka, Bangladesh",
+    "period": "May 2021 - Nov 2021",
+    "role": "Web Developer",
+    "description": "Developed and maintained **web applications** using PHP and JavaScript. Analyzed client needs and developed appropriate functionality. Created and executed **test scenarios** to ensure quality deliverables.",
+    "technologies": ["PHP", "JavaScript", "HTML", "CSS"]
+  }
+]

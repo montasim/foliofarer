@@ -1,0 +1,76 @@
+[
+  {
+    "id": "skills-frontend",
+    "category": "Frontend",
+    "items": [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Tailwind CSS",
+      "Redux.js",
+      "Bootstrap",
+      "jQuery",
+      "Responsive Web Design"
+    ]
+  },
+  {
+    "id": "skills-backend-data",
+    "category": "Backend & Data",
+    "items": [
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma",
+      "PHP",
+      "PhpMyAdmin"
+    ]
+  },
+  {
+    "id": "skills-cloud-devops",
+    "category": "Cloud & DevOps",
+    "items": ["Microsoft Azure", "Docker", "GitHub Actions", "CI/CD"]
+  },
+  {
+    "id": "skills-testing-tools",
+    "category": "Testing & Tools",
+    "items": [
+      "Jest",
+      "React Testing Library",
+      "Lighthouse",
+      "Figma",
+      "Git",
+      "Scrum",
+      "Agile Methodologies"
+    ]
+  },
+  {
+    "id": "skills-office-it",
+    "category": "Office & IT",
+    "items": [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Microsoft Office",
+      "IT Operations"
+    ]
+  },
+  {
+    "id": "skills-specialized",
+    "category": "Specialized",
+    "items": [
+      "WebRTC",
+      "MediaPipe",
+      "Konva.js",
+      "Opentok",
+      "Microservices",
+      "SSO",
+      "System Design"
+    ]
+  }
+]

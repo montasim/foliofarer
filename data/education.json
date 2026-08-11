@@ -1,0 +1,35 @@
+[
+  {
+    "id": "education-baust",
+    "institution": "Bangladesh Army University of Science and Technology (BAUST)",
+    "institutionUrl": "https://baust.edu.bd",
+    "logo": "B",
+    "logoUrl": "/images/organizations/baust.png",
+    "degree": "Bachelor of Science in Computer Science and Engineering",
+    "period": "Nov 2016 - Mar 2021",
+    "details": "Studied core computer science fundamentals including data structures, algorithms, software engineering, database systems, and web technologies.",
+    "highlights": []
+  },
+  {
+    "id": "education-carmichael-college",
+    "institution": "Carmichael College",
+    "institutionUrl": "",
+    "logo": "C",
+    "logoUrl": "/images/organizations/carmichael-college.png",
+    "degree": "Higher Secondary Certificate (HSC), Science Group",
+    "period": "2014 - 2016",
+    "details": "Completed higher secondary education with a focus on science subjects including physics, chemistry, and mathematics.",
+    "highlights": []
+  },
+  {
+    "id": "education-rangpur-zilla-school",
+    "institution": "Rangpur Zilla School",
+    "institutionUrl": "",
+    "logo": "R",
+    "logoUrl": "/images/organizations/rangpur-zilla-school.png",
+    "degree": "Secondary School Certificate (SSC), Science Group",
+    "period": "2006 - 2014",
+    "details": "Completed secondary education with science concentration.",
+    "highlights": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Mohammad Montasim Al Mamun Shuvo",
+  "title": "Senior Software Engineer | React, Next.js, Node.js, TypeScript | Real-Time & AI-Driven SaaS",
+  "tagline": "Building deterministic, high-performance web platforms for real-time and AI-driven applications.",
+  "avatarUrl": "/images/avatar.jpg",
+  "resumeUrl": "https://drive.google.com/file/d/1v0RP3PyBB6KdsfXhonIHJXU-wgAUSIRT/view?usp=sharing",
+  "location": "Dhaka, Bangladesh",
+  "email": "montasimmamun@gmail.com",
+  "about": "Most software looks great in the demo. I build the kind that survives production.\n\nI'm a **Senior Software Engineer** with **3+ years** building real-time, AI-driven, multi-tenant SaaS platforms across the full stack — React, Next.js, Node.js, and TypeScript. Promoted twice at the same company, I now own frontend architecture across a multi-service platform, lead PR reviews, and mentor the engineers behind me.\n\nKey highlights: cut cloud infrastructure costs **70%** by migrating Azure VMs to App Service with automated CI/CD. Boosted application performance **40%** and hit **Lighthouse 90+** by replacing legacy libraries with custom components. Built a real-time **computer vision** pipeline (MediaPipe) sustaining **60 FPS** at **99.9% reliability**, and designed a deterministic **finite-state-machine** engine that eliminated race conditions during live AI analysis.\n\nHere's what makes my work different: most engineers build for the happy path. I build for the moment it all goes wrong — predictable state transitions, resilient lifecycles, and async workflows that don't leak, stall, or surprise you. Reliability isn't something I bolt on at the end; it's the architecture I start with.",
+  "socialLinks": [
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/montasim",
+      "label": "LinkedIn"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/montasim",
+      "label": "GitHub"
+    },
+    {
+      "platform": "email",
+      "url": "mailto:montasimmamun@gmail.com",
+      "label": "Email"
+    }
+  ]
+}

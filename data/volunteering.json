@@ -1,0 +1,24 @@
+[
+  {
+    "id": "volunteering-carmichael-event-organizer",
+    "organization": "Carmichael College, Rangpur",
+    "organizationUrl": "",
+    "logo": "C",
+    "logoUrl": "/images/organizations/carmichael-college.png",
+    "location": "Rangpur, Bangladesh",
+    "period": "2014 - 2016",
+    "role": "Event Organizer",
+    "description": "Crafted and executed events that enriched the college experience for students and staff. Orchestrated Iftar Mahfil events during Ramadan, organized educational tours promoting camaraderie and personal development, led a dedicated team of volunteers, and meticulously managed event budgets ensuring optimal resource utilization."
+  },
+  {
+    "id": "volunteering-rangpur-zilla-school-event-organizer",
+    "organization": "Rangpur Zilla School",
+    "organizationUrl": "",
+    "logo": "R",
+    "logoUrl": "/images/organizations/rangpur-zilla-school.png",
+    "location": "Rangpur, Bangladesh",
+    "period": "2011 - 2013",
+    "role": "Event Organizer",
+    "description": "Organized vibrant and memorable events bringing the school community together. Planned annual iftar parties promoting unity and cultural exchange, executed engaging class parties fostering social cohesion, managed event budgets with fiscal responsibility, and collaborated with volunteer teams for seamless execution."
+  }
+]
