@@ -1,23 +1,24 @@
-# Journey
+# Foliofarer
 
 **An explorable 3D developer portfolio with a complete, accessible career Atlas.**
 
 [![Support on SupportKori](https://img.shields.io/badge/support-SupportKori-ffdd00)](https://www.supportkori.com/montasim)
+[![Live app](https://img.shields.io/badge/live-foliofarer.netlify.app-00C7B7?logo=netlify)](https://foliofarer.netlify.app)
 
-Journey turns Mohammad Montasim Al Mamun Shuvo's structured career records into a code-generated world. Visitors can walk through 12 professional landmarks, follow an assisted route, collect device-local Passport stamps, or read the same evidence directly in the Journey Atlas without using WebGL.
+Foliofarer turns Mohammad Montasim Al Mamun Shuvo's structured career records into a code-generated world. Visitors can walk through 12 professional landmarks, follow an assisted route, collect device-local Passport stamps, or read the same evidence directly in the Journey Atlas without using WebGL.
 
-**[Run Journey locally](#run-locally)** · [Report an issue](https://github.com/montasim/journey/issues) · [View Montasim's portfolio](https://montasim.vercel.app)
+**[Open Foliofarer](https://foliofarer.netlify.app)** · [Run it locally](#run-locally) · [Report an issue](https://github.com/montasim/foliofarer/issues) · [View Montasim's portfolio](https://montasim.vercel.app)
 
-![Journey world showing the Town Square, route, Passport, and minimap](tests/journey/__screenshots__/journey-desktop.png)
+![Foliofarer world showing the Town Square, route, Passport, and minimap](tests/journey/__screenshots__/journey-desktop.png)
 
 > [!NOTE]
-> Journey is ready to build and self-host, but this repository does not yet identify a verified public deployment. The screenshot above is maintained as a Playwright visual baseline.
+> Foliofarer is publicly deployed at [foliofarer.netlify.app](https://foliofarer.netlify.app). The screenshot above is maintained as a Playwright visual baseline.
 
-## Why Journey?
+## Why Foliofarer?
 
 Traditional portfolios are efficient to scan but rarely show how education, work, projects, learning, and community contributions connect. Fully interactive portfolios can be memorable, but they often make important evidence harder to reach.
 
-Journey keeps both paths available:
+Foliofarer keeps both paths available:
 
 - Explore a stylized world that presents the career chronology spatially.
 - Open the Atlas to read every portfolio record directly.
@@ -37,9 +38,9 @@ The 3D world adds discovery; it is never required to access the professional rec
 - Continue in the Atlas when WebGL initialization fails or the rendering context is lost.
 - Respect reduced-motion, reduced-data, connection, viewport, and device-capability signals through adaptive rendering tiers.
 
-## Using Journey
+## Using Foliofarer
 
-Journey attempts to open the 3D world automatically. The Atlas remains available from the map control and becomes the primary view when the renderer is unavailable.
+Foliofarer attempts to open the 3D world automatically. The Atlas remains available from the map control and becomes the primary view when the renderer is unavailable.
 
 ### Explore the world
 
@@ -103,18 +104,18 @@ The application has no database, authentication service, or required secret cred
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/montasim/journey.git
-cd journey
+git clone https://github.com/montasim/foliofarer.git
+cd foliofarer
 pnpm install
 ```
 
 ### 2. Configure optional public URLs
 
-Journey runs locally without an environment file. Add `.env.local` only when the default destinations do not fit the deployment:
+Foliofarer runs locally without an environment file. Add `.env.local` only when the default destinations do not fit the deployment:
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `NEXT_PUBLIC_APP_URL` | `http://localhost:3000` | Canonical origin used by Next.js metadata |
+| `NEXT_PUBLIC_APP_URL` | `https://foliofarer.netlify.app` | Canonical origin used by Next.js metadata |
 | `NEXT_PUBLIC_PORTFOLIO_URL` | `https://montasim.vercel.app` | Destination of “return to portfolio” controls |
 
 Both values are exposed to the browser. Do not put secrets in either variable or in any `NEXT_PUBLIC_*` setting.
@@ -185,7 +186,7 @@ Run `pnpm test:journey` when Chrome is available. Update screenshots only after 
 
 ## Deployment
 
-Journey can be deployed to a Next.js-compatible host without backend services:
+The maintained deployment runs at [foliofarer.netlify.app](https://foliofarer.netlify.app). Foliofarer can also be deployed to another Next.js-compatible host without backend services:
 
 1. Set `NEXT_PUBLIC_APP_URL` to the production origin.
 2. Set `NEXT_PUBLIC_PORTFOLIO_URL` when the standard portfolio uses another destination.
@@ -205,7 +206,7 @@ Generated world assets are part of the application output and must remain availa
 - Career records are maintained portfolio content, not independently verified credentials. Follow the linked source material or contact the author when verification matters.
 - Automated tests cover generation, validation, navigation, accessibility, interactions, visual baselines, and selected performance contracts; they do not guarantee identical graphics performance across every browser and GPU.
 - Known test debt: `pnpm test:unit` currently passes 65 of 68 tests. Three v3 compiler assertions fail around a generated geometry buffer, chronology spacing, and the minimum grass-tuft count; type checking, linting, v3 validation, and the production build pass.
-- A public production deployment has not yet been verified for this standalone repository.
+- The public Netlify deployment is the maintained production instance; graphics performance still varies across browsers and GPUs.
 
 ## Documentation
 
@@ -217,7 +218,7 @@ Generated world assets are part of the application output and must remain availa
 
 ## Contributing, support, and security
 
-Focused bug fixes, accessibility improvements, performance work, documentation corrections, and verified portfolio-data corrections are welcome. Use [GitHub Issues](https://github.com/montasim/journey/issues) for reproducible public reports and [Pull Requests](https://github.com/montasim/journey/pulls) for reviewable changes.
+Focused bug fixes, accessibility improvements, performance work, documentation corrections, and verified portfolio-data corrections are welcome. Use [GitHub Issues](https://github.com/montasim/foliofarer/issues) for reproducible public reports and [Pull Requests](https://github.com/montasim/foliofarer/pulls) for reviewable changes.
 
 Include the browser, operating system, input method, affected route or landmark, and reproduction steps in bug reports. Do not publish private personal information, credentials, or vulnerability details in an issue; use the contact options on [Montasim's GitHub profile](https://github.com/montasim) for sensitive reports.
 
@@ -227,7 +228,7 @@ This repository does not currently include dedicated `CONTRIBUTING.md`, `SECURIT
 
 Optional SupportKori contributions help fund hosting, testing, accessibility work, and continued development. Bug reports, code contributions, documentation improvements, and sharing the project are equally valuable.
 
-[![Support Journey on SupportKori](https://img.shields.io/badge/Support_Journey-SupportKori-00B8B5?style=for-the-badge)](https://www.supportkori.com/montasim)
+[![Support Foliofarer on SupportKori](https://img.shields.io/badge/Support_Foliofarer-SupportKori-00B8B5?style=for-the-badge)](https://www.supportkori.com/montasim)
 
 GitHub's funding link is configured in [`.github/FUNDING.yml`](.github/FUNDING.yml).
 

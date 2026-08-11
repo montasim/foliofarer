@@ -11,13 +11,14 @@ const display = Barlow_Condensed({
   variable: "--font-journey-display",
 })
 
-const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"
+const appUrl =
+  process.env.NEXT_PUBLIC_APP_URL ?? "https://foliofarer.netlify.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(appUrl),
-  title: "3D Journey | Montasim",
+  title: "Foliofarer | Montasim",
   description:
-    "Walk through Montasim's code-authored professional journey, with the complete Atlas and Passport available inside the world.",
+    "Explore Montasim's code-authored professional world through Foliofarer, with a complete career Atlas and device-local Passport.",
   alternates: { canonical: "/" },
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
