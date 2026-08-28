@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { Barlow_Condensed, Geist } from "next/font/google"
+import Script from "next/script"
 
 import "./globals.css"
 
@@ -34,7 +35,18 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${sans.variable} ${display.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script
+          id="support-kori-widget"
+          src="https://www.supportkori.com/widget.js"
+          data-id="montasim"
+          data-message="Support montasim"
+          data-color="#FFDD00"
+          data-position="right"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   )
 }
